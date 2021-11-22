@@ -16,6 +16,7 @@ deploy:
   env: "Docker-env"
   bucket_name: elasticbeanstalk-us-east-2-442656473337
   bucket_path: "docker"
+  edge: true
 
   on:
     branch: master
